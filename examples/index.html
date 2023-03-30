@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tsx-calculator测试</title>
+  </head>
+  <body>
+    <script src="../dist/calculator.umd.js"></script>
+    <script>
+      var Calculator = window.Calculator;
+      if (Calculator) {
+        console.log(Calculator.add(1, 2));
+        console.log(Calculator.subtract(2, 1));
+        console.log(Calculator.multiply(2, 5));
+        console.log(Calculator.divide(12, 3));
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "name": "tsx-calculator",
+  "version": "1.0.0",
+  "description": "TypeScript版本的计算器库，提供了简单的加、减、乘、除基本四则运算功能，同时解决了精度丢失的问题。",
+  "main": "dist/calculator.common.min.js",
+  "module": "dist/calculator.esm.min.js",
+  "unpkg": "dist/calculator.umd.min.js",
+  "jsdelivr": "dist/calculator.umd.min.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types",
+    "examples"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caojianping/tsx-calculator.git"
+  },
+  "keywords": [
+    "Calculator",
+    "TypeScript",
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": "caojianping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caojianping/tsx-calculator/issues"
+  },
+  "homepage": "https://github.com/caojianping/tsx-calculator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@typescript-eslint/parser": "^4.33.0",
+    "rollup": "^2.58.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
+  },
+  "buildOptions": {
+    "name": "Calculator"
+  }
+}
