@@ -1,6 +1,6 @@
 {
   "name": "tsx-calculator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TypeScript版本的计算器库，提供了简单的加、减、乘、除基本四则运算功能，同时解决了精度丢失的问题。",
   "main": "dist/calculator.common.min.js",
   "module": "dist/calculator.esm.min.js",
